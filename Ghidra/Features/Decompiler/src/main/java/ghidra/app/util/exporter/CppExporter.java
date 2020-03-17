@@ -171,7 +171,7 @@ public class CppExporter extends Exporter {
 			if (entry != null) {
 				String headerCode = entry.getHeaderCode();
 				if (headerCode != null) {
-					headers.append(headerCode);
+					headers.append(headerCode + ";");
 					headers.append(EOL);
 				}
 
